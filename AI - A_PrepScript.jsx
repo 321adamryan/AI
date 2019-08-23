@@ -36,6 +36,11 @@ newCMYKColor.cyan = 100;
 newCMYKColor.magenta = 0;
 newCMYKColor.yellow = 0;
 
+newRGBColor = new RGBColor();
+newRGBColor.red = 255;
+newRGBColor.green = 255;
+newRGBColor.blue = 0;
+
 //Create Rectangle
     var docRef = app.activeDocument;  
     var artboardRef = docRef.artboards;  
@@ -162,6 +167,11 @@ newCMYKColor.cyan = 0;
 newCMYKColor.magenta = 100;
 newCMYKColor.yellow = 0;
 
+newRGBColor = new RGBColor();
+newRGBColor.red = 255;
+newRGBColor.green = 255;
+newRGBColor.blue = 0;
+
 //Create Rectangle
     var docRef = app.activeDocument;  
     var artboardRef = docRef.artboards;  
@@ -197,6 +207,11 @@ newCMYKColor.black = 0;
 newCMYKColor.cyan = 0;
 newCMYKColor.magenta = 100;
 newCMYKColor.yellow = 0;
+
+newRGBColor = new RGBColor();
+newRGBColor.red = 255;
+newRGBColor.green = 255;
+newRGBColor.blue = 0;
 
 //Create Rectangle
     var docRef = app.activeDocument;  
